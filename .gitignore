@@ -1,0 +1,7 @@
+images
+venv
+output
+result
+.idea
+idea/workspace.xml
+__pycache__
