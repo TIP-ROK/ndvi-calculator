@@ -30,3 +30,8 @@ python ndvi_calculator.py
 ```
 ## After running scripts abowe ypu wel get this picture and saved tiff file in result directory
 ![img.png](readme_img/img.png)
+
+## get coordinates
+```commandline
+rio bounds output/sentinel3.tif --indent 2
+```

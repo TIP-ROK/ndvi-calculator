@@ -4,7 +4,7 @@ from rasterio import plot
 import matplotlib.pyplot as plt
 
 
-image_file = "./output/sentinel3.tif"
+image_file = "./output/sentinel2.tif"
 
 with rasterio.open(image_file) as src:
     band_red = src.read(3)
@@ -21,7 +21,6 @@ ndvi = (band_nir.astype(float) - band_red.astype(float)) / (band_nir + band_red)
 # Set spatial characteristics of the output object to mirror the input
 kwargs = src.meta
 kwargs.update(
-    # dtype parameter change color of saving obj
     dtype=rasterio.float32,
     count=1,
     )
