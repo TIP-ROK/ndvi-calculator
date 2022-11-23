@@ -28,7 +28,7 @@ pip install -r requirements.txt
 python jp2_tiff.py
 python ndvi_calculator.py
 ```
-## After running scripts abowe ypu wel get this picture and saved tiff file in result directory
+## After running scripts abowe you will get picture like this and saved tiff file in result directory
 ![img.png](readme_img/img.png)
 
 ## get coordinates
