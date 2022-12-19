@@ -13,8 +13,7 @@ git clone git@github.com:TIP-ROK/ndvi-calculator.git
 ## Required
 ```
 - create files: 
-    - images (download .jp2 files from 
-    https://drive.google.com/drive/folders/1OoE7WryYVa4YPfYKYY7k_NAXWrzhUKOC?usp=sharing)
+    - images (download .jp2 files. to download dataset that i use conect with me.)
     - output
     - result
 ```
